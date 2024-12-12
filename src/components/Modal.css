@@ -1,0 +1,28 @@
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+.modal-content {
+  width: 90%;
+  max-width: 60rem;
+  height: auto;
+  max-height: 90%;
+  background-color: #111214;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5rem 4rem rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 5%;
+  left: 35%;
+}
+.close-button {
+  position: absolute;
+  top: 0.2rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
